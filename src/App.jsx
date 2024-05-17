@@ -86,7 +86,7 @@ export const JobCard = ({ singleJob }) => {
       className="bg-white rounded-md mb-5 p-3 border-slate-300 border"
     >
       <h2 className="font-bold mb-1 text-sm">{singleJob?.title}</h2>
-      <div className="flex gap-2 text-gray-700 text-xs">
+      <div className="flex gap-1 text-gray-700 text-xs">
         <div>By {singleJob?.by} </div>
         <div>&middot;</div>
         <div>{new Date(singleJob?.time * 1000).toLocaleString()}</div>
